@@ -21,6 +21,7 @@
     <!-- Bootstrap Jquery -->
     <script src="server/vendor/jquery/jquery.min.js"></script>
     <script src="server/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="server/vendor/js/count.js"></script>
 
 </head>
 
@@ -69,35 +70,72 @@
     <div id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h1 class="mt-5">
-                        Apa itu Bersinar Project?
+                <div class="col-lg-12 ">
+                    <h1 class="mt-5 text-about">
+                        <span class="head-title"> Apa itu Bersinar Project?</span>
                     </h1>
                 </div>
-                <div class="col-lg-6 d-nonelg-block img-about">
-                    <img src="server/res/fluid-about.png" class=" img-fluid ">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <p class="lead mt-5 text-about ">Bersinar Project adalah wadah bagi pelajar di seluruh Indonesia untuk saling berbagi ilmu <br>serta membantu satu sama lain untuk menggapai cita bersama.</p>
-                </div>
                 <div class="col-lg-12">
-
+                    <h2 class="lead mt-5 text-sub-about">
+                        Bersinar Project adalah organisasi nirlaba yang bergerak di bidang pendidikan. Dibentuk pada Desember 2020, Bersinar Project telah melaksanakan misinya untuk mengedukasi pelajar Indonesia secara mudah dan gratis.
+                        </br>
+                        Bersinar Project dibentuk oleh pelajar yang berhasil beradaptasi secara akademis di tengah pandemi dan memiliki keinginan kuat untuk memberikan dampak kepada masyarakat luas.
+                    </h2>
                 </div>
             </div>
         </div>
     </div>
-
+    <div class="count">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="mt-5 text-about"><span class="head-title">Desember 2020 - Maret 2021</span></h1>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card counter card-count">
+                        <div class="card-body">
+                            <h1 class="count-text">50++</h1>
+                            <p class="sub-count-text">Kelas Online yang telah dilaksanakan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card counter card-count">
+                        <div class="card-body">
+                            <h1 class="count-text">10.000++</h1>
+                            <p class="sub-count-text">Partisipan yang telah mengikuti kelas online.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card counter card-count">
+                        <div class="card-body">
+                            <h1 class="count-text"><span class="counter">50</span>++</h1>
+                            <p class="sub-count-text">Total jam pelajaran</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap core JavaScript -->
 
-    <script src="vendor/jquery/jquery.slim.min.js "></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <script src="server/vendor/jquery/jquery.slim.min.js "></script>
+    <script src="server/vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
     <script>
-        $(window).scroll(function() {
-
-            $('navbar').toggleClass('scrolled', $(this).scrollTop() > 50);
-
+        $('.counter').each(function() {
+            $(this).prop('Counter', 0).animate({
+                Counter: $(this).text()
+            }, {
+                duration: 5000,
+                easing: 'swing',
+                step: function(now) {
+                    $(this).text(Math.ceil(now));
+                }
+            });
         });
     </script>
+
 </body>
 
 </html>

@@ -4,6 +4,15 @@
     }
     /* nav */
     
+    h1,
+    h2,
+    h3,
+    h4,
+    a,
+    p {
+        color: #34364a !important;
+    }
+    
     nav {
         color: #34364a;
         margin-top: 15px;
@@ -60,4 +69,44 @@
     
     .img-banner {
         max-width: 1200px;
+    }
+    
+    #about {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+    .text-about {
+        text-align: center;
+        font-weight: 600;
+        font-size: 50px;
+    }
+    
+    .text-sub-about {
+        margin-top: -8px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .head-title {
+        background: linear-gradient(360deg, #ffcf2d 50%, #f6f8fd 50%);
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .card-count {
+        background-color: #f6f8fd;
+        margin-top: 30px;
+        padding-top: 40px;
+        height: 250px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    
+    .count-text {
+        font-size: 60px;
+    }
+    
+    .sub-count-text {
+        font-size: 20px;
     }
