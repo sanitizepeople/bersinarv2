@@ -20,10 +20,15 @@
     .nav-item {
         font-size: 20px;
         font-weight: 500;
-        padding-right: 55px;
+        padding-right: 45px;
     }
     
-    .section1 {
+    nav,
+    a:hover {
+        color: #ffcf2d !important;
+    }
+    
+    .home {
         background-color: #f6f8fd;
     }
     
@@ -34,13 +39,19 @@
     
     .text-head {
         font-weight: 700;
-        font-size: 60px;
+        font-size: 68px;
         font-stretch: semi-condensed;
+        letter-spacing: 3px;
+    }
+    
+    .span-light {
+        background-color: #ffcf2d;
+        border-radius: 20px;
     }
     
     .sub-head {
-        font-weight: 500;
-        font-size: 40;
+        font-weight: 600;
+        font-size: 23px
     }
     
     .banner {
@@ -49,6 +60,4 @@
     
     .img-banner {
         max-width: 1200px;
-        -webkit-animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
