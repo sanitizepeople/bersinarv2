@@ -96,7 +96,8 @@
         
         .count {
             margin-top: 25px;
-            margin-bottom: 45px;
+            margin-bottom: 55px;
+            padding-bottom: 50px;
         }
         
         .card-count {
@@ -123,4 +124,38 @@
         
         #count-1:hover {
             background-color: #d6a913;
+        }
+        
+        .class-preview {
+            margin-top: 35px;
+            padding-top: 45px;
+        }
+        
+        .title-class {
+            font-size: 40px;
+            text-align: center;
+            padding-top: 25px;
+        }
+        
+        .card-class {
+            background-color: #ffcf2d !important;
+            margin-top: 70px;
+            padding-top: 35px;
+            height: 400px;
+            margin-bottom: 25px;
+            text-align: center;
+            border-color: black;
+            border-width: 5px;
+            border-radius: 15px;
+        }
+        
+        .yt-vid {
+            width: 100%;
+            height: 100%;
+            padding-bottom: 30px;
+        }
+        
+        .img-class {
+            height: 380px;
+            margin-top: 90px;
         }
