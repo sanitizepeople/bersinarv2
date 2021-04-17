@@ -66,7 +66,8 @@
         }
         
         .img-banner {
-            max-width: 1199px;
+            max-width: 1200px;
+            padding-right: 30px;
         }
         
         #about {
@@ -141,7 +142,7 @@
             background-color: #ffcf2d !important;
             margin-top: 70px;
             padding-top: 35px;
-            height: 400px;
+            height: 500px;
             margin-bottom: 25px;
             text-align: center;
             border-color: black;
