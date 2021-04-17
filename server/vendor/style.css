@@ -1,112 +1,126 @@
-    * {
-        font-family: 'Poppins', sans-serif;
-        background-color: #f6f8fd;
-    }
-    /* nav */
-    
-    h1,
-    h2,
-    h3,
-    h4,
-    a,
-    p {
-        color: #34364a !important;
-    }
-    
-    nav {
-        color: #34364a;
-        margin-top: 15px;
-        display: flex;
-    }
-    
-    .navbar-brand {
-        color: #34364a;
-        font-size: 28px;
-        font-weight: 500;
-        padding-left: 90px;
-    }
-    
-    .nav-item {
-        font-size: 20px;
-        font-weight: 500;
-        padding-right: 45px;
-    }
-    
-    nav,
-    a:hover {
-        color: #ffcf2d !important;
-    }
-    
-    .home {
-        background-color: #f6f8fd;
-    }
-    
-    .text-header {
-        color: #34364a;
-        margin-top: 90px;
-    }
-    
-    .text-head {
-        font-weight: 700;
-        font-size: 68px;
-        font-stretch: semi-condensed;
-        letter-spacing: 3px;
-    }
-    
-    .span-light {
-        background-color: #ffcf2d;
-        border-radius: 20px;
-    }
-    
-    .sub-head {
-        font-weight: 600;
-        font-size: 23px
-    }
-    
-    .banner {
-        margin-top: 15px;
-    }
-    
-    .img-banner {
-        max-width: 1199px;
-    }
-    
-    #about {
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
-    
-    .text-about {
-        text-align: center;
-        font-weight: 600;
-        font-size: 50px;
-    }
-    
-    .text-sub-about {
-        margin-top: -8px;
-        text-align: center;
-        font-weight: 500;
-        font-size: 30px;
-    }
-    
-    .head-title {
-        background: linear-gradient(360deg, #ffcf2d 50%, #f6f8fd 50%);
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+        /* nav */
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        a,
+        p {
+            color: #2f2f2f !important;
+        }
+        
+        nav {
+            color: #34364a;
+            margin-top: 15px;
+            display: flex;
+        }
+        
+        .navbar-brand {
+            color: #34364a;
+            font-size: 28px;
+            font-weight: 500;
+            padding-left: 90px;
+        }
+        
+        .nav-item {
+            font-size: 20px;
+            font-weight: 500;
+            padding-right: 45px;
+        }
+        
+        nav,
+        a:hover {
+            color: #ffcf2d !important;
+        }
+        
+        .home {
+            background-color: #8cacd3;
+        }
+        
+        .text-header {
+            color: #34364a;
+            margin-top: 90px;
+        }
+        
+        .text-head {
+            font-weight: 700;
+            font-size: 68px;
+            letter-spacing: 3px;
+        }
+        
+        .span-light {
+            background-color: #ffcf2d;
+            border-radius: 20px;
+        }
+        
+        .sub-head {
+            font-weight: 600;
+            font-size: 23px
+        }
+        
+        .banner {
+            margin-top: 15px;
+        }
+        
+        .img-banner {
+            max-width: 1199px;
+        }
+        
+        #about {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            background-color: #8cacd3;
+        }
+        
+        .text-about {
+            text-align: center;
+            font-weight: 700;
+            font-size: 58px;
+            color: black !important;
+            text-shadow: black;
+        }
+        
+        .text-sub-about {
+            margin-top: -8px;
+            text-align: center;
+            font-weight: 500;
+            font-size: 30px;
+        }
+        /* .head-title {
+        background: linear-gradient(360deg, #ffcf2d 50%, #8cacd3 50%);
         padding: 5px 5px 5px 5px;
-    }
-    
-    .card-count {
-        background-color: #f6f8fd;
-        margin-top: 30px;
-        padding-top: 40px;
-        height: 250px;
-        margin-bottom: 25px;
-        text-align: center;
-    }
-    
-    .count-text {
-        font-size: 60px;
-    }
-    
-    .sub-count-text {
-        font-size: 20px;
-    }
+    } */
+        
+        .count {
+            margin-top: 25px;
+            margin-bottom: 45px;
+        }
+        
+        .card-count {
+            background-color: #ffcf2d !important;
+            margin-top: 70px;
+            padding-top: 35px;
+            height: 250px;
+            margin-bottom: 25px;
+            text-align: center;
+            border-color: black;
+            border-width: 5px;
+            border-radius: 15px;
+        }
+        
+        .count-text {
+            font-size: 60px;
+            font-weight: 600;
+        }
+        
+        .sub-count-text {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        
+        #count-1:hover {
+            background-color: #d6a913;
+        }

@@ -1,0 +1,112 @@
+@media screen and (max-width: 800px) {
+    * {
+        font-family: 'Poppins', sans-serif;
+    }
+    /* nav */
+    h1,
+    h2,
+    h3,
+    h4,
+    a,
+    p {
+        color: #2f2f2f !important;
+    }
+    nav {
+        color: #34364a;
+        margin-top: 5px;
+        display: flex;
+    }
+    .navbar-brand {
+        color: #34364a;
+        font-size: 28px;
+        font-weight: 500;
+        margin-left: -20px;
+    }
+    .nav-item {
+        font-size: 20px;
+        font-weight: 500;
+        padding-right: 45px;
+    }
+    nav,
+    a:hover {
+        color: #ffcf2d !important;
+    }
+    .home {
+        background-color: #8cacd3;
+    }
+    .text-header {
+        color: #34364a;
+        margin-top: 80px;
+    }
+    .text-head {
+        font-weight: 700;
+        font-size: 55px;
+        letter-spacing: 3px;
+    }
+    .span-light {
+        background-color: #ffcf2d;
+        border-radius: 10px;
+    }
+    .sub-head {
+        font-weight: 600;
+        font-size: 18px
+    }
+    .banner {
+        margin-top: 15px;
+    }
+    .img-banner {
+        max-width: 100%;
+    }
+    #about {
+        padding-top: 50px;
+        padding-bottom: 150px;
+        background-color: #8cacd3;
+    }
+    .text-about {
+        text-align: center;
+        font-weight: 700;
+        font-size: 50px;
+        color: black !important;
+        text-shadow: black;
+    }
+    .text-sub-about {
+        margin-top: -8px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    /* .head-title {
+    background: linear-gradient(360deg, #ffcf2d 50%, #8cacd3 50%);
+    padding: 5px 5px 5px 5px;
+} */
+    .count {
+        margin-top: 25px;
+        margin-bottom: 35px;
+    }
+    .card {
+        max-width: 85%;
+        margin-left: 25px;
+    }
+    .card-count {
+        background-color: #ffcf2d !important;
+        margin-top: 70px;
+        padding-top: 35px;
+        height: 250px;
+        margin-bottom: 25px;
+        text-align: center;
+        border-color: black;
+        border-width: 5px;
+        border-radius: 15px;
+    }
+    .count-text {
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .sub-count-text {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    #count-1:hover {
+        background-color: #d6a913;
+    }
+}
